@@ -10,6 +10,7 @@ __all__: list = [
     'Pyraminx',
     'Skewb',
     'Square_One',
+    'Megaminx'
 ]
 
 
@@ -309,6 +310,14 @@ def Square_One(size: int = 14) -> list:
         Moves.append('/')
 
     return Moves
+
+
+def Megaminx(size: int) -> list:
+    """
+    This function generates a scramble for Magaminx
+    Following the WCA guidelines.
+    """
+    pass
 
 
 if __name__ == '__main__':

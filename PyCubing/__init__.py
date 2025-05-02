@@ -6,7 +6,7 @@ __license__: str = 'MIT'
 __doc__: str = """
 -*--------- The PyCubing official docs ---------*-
 
-    Everything can be finded at this link:
+    Everything can be found at this link:
     https://github.com/Samuel-de-Oliveira/PyCubing
 
 -*----------------------------------------------*-

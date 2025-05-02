@@ -2,7 +2,10 @@ from setuptools import setup
 import PyCubing
 
 with open('README.md', 'r', encoding='utf-8') as fh:
-    long_description = fh.read()
+    long_description: str = fh.read()
+
+with open('requirements.txt', 'r', encoding='utf-8') as fh:
+    project_requirements: str = fh.read() 
 
 setup(
     name='PyCubing',
