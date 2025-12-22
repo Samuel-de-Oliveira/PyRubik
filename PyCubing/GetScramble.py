@@ -1,3 +1,11 @@
+##-*--------------- Scrambles ---------------*-##
+#                                               #
+#   Library create with the prupose to generate #
+# scrambles for the WCA Puzzles. Fell free to   #
+# copy something here                           #
+#                                               #
+##-*-----------------------------------------*-##
+
 from random import randint, choice
 
 __all__: list = [
@@ -10,7 +18,7 @@ __all__: list = [
     'Pyraminx',
     'Skewb',
     'Square_One',
-    'Megaminx'
+    'Megaminx',
 ]
 
 
@@ -178,7 +186,7 @@ def Cube6x6x6(size: int = 55) -> list:
 
 def Cube7x7x7(size: int = 65) -> list:
     """
-    This function generates a scramble for 6x6x6 Cube
+    This function generates a scramble for 7x7x7 Cube
     Following the WCA guidelines.
     """
 
@@ -312,13 +320,26 @@ def Square_One(size: int = 14) -> list:
     return Moves
 
 
-def Megaminx(size: int) -> list:
+def Megaminx(size: int = 30) -> list:
+    # TODO: Finish this part of code
     """
     This function generates a scramble for Magaminx
     Following the WCA guidelines.
     """
-    pass
+    return ['not working yet']
+
+
+def Clock(size: int = 10) -> list:
+    # TODO: Finish this part of code
+    """
+    This function generates a scramble for Clock
+    Following the WCA guidelines.
+    """
+    return ['not working yet']
 
 
 if __name__ == '__main__':
-    print('This is a module file, then you should import it.')
+    print(
+        'This is a module file, then you should import it.\n'
+        + 'Plase, take a look in https://github.com/Samuel-de-Oliveira/PyCubing for more info'
+    )
