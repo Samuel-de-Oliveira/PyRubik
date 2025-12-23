@@ -53,4 +53,4 @@ Comming soon...
 
 ---
 
-Made with :love: in Brazil :brazil:
+Made with ❤️ in Brazil 🇧🇷
