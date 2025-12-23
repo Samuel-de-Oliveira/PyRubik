@@ -331,6 +331,7 @@ def Megaminx(size: int = 30) -> list:
 
 def Clock(size: int = 10) -> list:
     # TODO: Finish this part of code
+    # TODO: Study how clock scramble works
     """
     This function generates a scramble for Clock
     Following the WCA guidelines.
