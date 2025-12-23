@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-import PyCubing
+import PyRubik
 
 # Get the README.md file and create the doc
 with open('README.md', 'r', encoding='utf-8') as fh:
@@ -11,8 +11,8 @@ with open('requirements.txt', 'r', encoding='utf-8') as fh:
 
 # Setup
 setup(
-    name='PyCubing',
-    version=PyCubing.__version__,
+    name='PyRubik',
+    version=PyRubik.__version__,
     author='Samuel de Oliveira',
     author_email='samwolfg12@gmail.com',
     packages=find_packages(),

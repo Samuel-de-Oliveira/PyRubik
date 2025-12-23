@@ -5,10 +5,10 @@ __author__: str = 'Samuel de Oliveira'
 __license__: str = 'MIT'
 __all__: list = []
 __doc__: str = """
--*--------- The PyCubing official docs ---------*-
+-*--------- The PyRubik official docs ---------*-
 
     Everything can be found at this link:
-    https://github.com/Samuel-de-Oliveira/PyCubing
+    https://github.com/Samuel-de-Oliveira/PyRubik
 
 -*----------------------------------------------*-
 """
@@ -16,5 +16,5 @@ __doc__: str = """
 if __name__ == '__main__':
     print(
         'This is a module file, then you should import it.\n'
-        + 'Plase, take a look in https://github.com/Samuel-de-Oliveira/PyCubing for more info'
+        + 'Plase, take a look in https://github.com/Samuel-de-Oliveira/PyRubik for more info'
     )

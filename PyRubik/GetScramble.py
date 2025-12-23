@@ -342,5 +342,5 @@ def Clock(size: int = 10) -> list:
 if __name__ == '__main__':
     print(
         'This is a module file, then you should import it.\n'
-        + 'Plase, take a look in https://github.com/Samuel-de-Oliveira/PyCubing for more info'
+        + 'Plase, take a look in https://github.com/Samuel-de-Oliveira/PyRubik for more info'
     )
