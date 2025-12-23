@@ -1,6 +1,6 @@
 # Init file
 
-__version__: str = '0.1'
+__version__: str = '0.1.0.1'
 __author__: str = 'Samuel de Oliveira'
 __license__: str = 'MIT'
 __all__: list = []

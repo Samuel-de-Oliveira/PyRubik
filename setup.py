@@ -7,7 +7,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 # Get the project requirements
 with open('requirements.txt', 'r', encoding='utf-8') as fh:
-    project_requirements: str = fh.read() 
+    project_requirements: str = fh.read()
 
 # Setup
 setup(
@@ -19,7 +19,7 @@ setup(
     url='https://github.com/Samuel-de-Oliveira/PyCubing/',
     license='MIT',
     description='A Python module to make speedcubing projects a piece of cake.',
-    keywords = 'cubing rubik rubik\'s cube solver scramble cube',
+    keywords="cubing rubik rubik's cube solver scramble cube pyrubik",
     long_description=long_description,
     python_requires='>=3.10',
     long_description_content_type='text/markdown',
@@ -31,4 +31,5 @@ setup(
         'Topic :: Education',
         'Topic :: Games/Entertainment',
     ],
+    entry_points={'console_scripts': []},  # comming soon...
 )

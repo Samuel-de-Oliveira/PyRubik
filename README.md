@@ -48,4 +48,9 @@ if __name__ == '__main__':
 U  L  U2  F'  U'  D'  F2  U'  F  L'  R  F2  B2  L2  R'  F  U'  B  F2  U'  F  B2  L  U
 ```
 
-#### Made in Brazil :brazil:
+### PyRubik docs
+Comming soon...
+
+---
+
+Made with :love: in Brazil :brazil:
