@@ -2,7 +2,7 @@
 #                                               #
 #   Library create with the prupose to generate #
 # scrambles for the WCA Puzzles. Fell free to   #
-# copy something here                           #
+# copy or modify something here.                #
 #                                               #
 ##-*-----------------------------------------*-##
 
@@ -322,6 +322,7 @@ def Square_One(size: int = 14) -> list:
 
 def Megaminx(size: int = 30) -> list:
     # TODO: Finish this part of code
+    # TODO: Study how clock scramble works
     """
     This function generates a scramble for Magaminx
     Following the WCA guidelines.

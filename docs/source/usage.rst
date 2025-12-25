@@ -6,7 +6,7 @@ There are some usages for the PyRubik library. Just take a look:
 Scramble
 --------
 
-1. This code generate and print a 3x3 scramble
+1. This code generate and print a 3x3 scramble:
 
 .. code-block:: python
 
@@ -17,6 +17,22 @@ Scramble
 
     # Show it
     for move in scb:
+      print(move, end=' ')
+    print()
+
+2. This code create a backwars scramble of a 3x3 cube:
+
+.. code-block:: python
+
+  from PyRubik import Scramble, Tools
+
+  if __name__ == '__main__':
+    # Create and reverse it
+    scb: list = Scramble.Cube3x3x3()
+    b_scb: list = Tools.reverse(scb)
+
+    # Show it
+    for move in b_scb:
       print(move, end=' ')
     print()
 
