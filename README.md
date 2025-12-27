@@ -49,7 +49,7 @@ U  L  U2  F'  U'  D'  F2  U'  F  L'  R  F2  B2  L2  R'  F  U'  B  F2  U'  F  B2 
 ```
 
 ### PyRubik docs
-Comming soon...
+You can get the project documentation [right here](https://pyrubik.readthedocs.io/en/latest/commands.html).
 
 ---
 
