@@ -16,10 +16,10 @@ The module has so many features. Just take a look:
 
 ```python
 # This is a 2x2.py file
-from PyRubik import GetScramble
+from PyRubik import Scramble
 
 if __name__ == '__main__':
-  scramble: list = GetScramble.Cube2x2x2() # Create the scramble
+  scramble: list = Scramble.Cube2x2x2() # Create the scramble
   print(f'A 2x2x2 Scramble: {scramble}')   # Show it
 ```
 
@@ -32,10 +32,10 @@ A 2x2x2 Scramble: ['R2', "F'", 'R2', 'F', "R'", 'U', 'R2', 'U', "F'"]
 
 ```python
 # This is a 3x3.py file
-from PyRubik import GetScramble
+from PyRubik import Scramble
 
 if __name__ == '__main__':
-  scramble: list = GetScramble.Cube3x3x3() # Create the scramble
+  scramble: list = Scramble.Cube3x3x3() # Create the scramble
 
   # Show it
   for move in scramble:
