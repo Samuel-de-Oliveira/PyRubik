@@ -16,7 +16,10 @@ setup(
     author='Samuel de Oliveira',
     author_email='samwolfg12@gmail.com',
     packages=find_packages(),
-    url='https://github.com/Samuel-de-Oliveira/PyCubing/',
+    project_urls={
+        'Source code': 'https://github.com/Samuel-de-Oliveira/PyCubing/',
+        'Documentation': 'https://pyrubik.readthedocs.io/en/latest/',
+    },
     license='MIT',
     description='A Python module to make speedcubing projects a piece of cake.',
     keywords="cubing rubik rubik's cube solver scramble cube pyrubik",
@@ -31,5 +34,6 @@ setup(
         'Topic :: Education',
         'Topic :: Games/Entertainment',
     ],
+    # Package commands
     entry_points={'console_scripts': []},  # comming soon...
 )
