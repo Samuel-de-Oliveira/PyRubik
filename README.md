@@ -3,7 +3,11 @@ PyRubik is python module create to assist the creation of speedcubing
 softwares made in Python. For example, if you are creating a speedcuber
 timer using Flask, this module may help you.
 
+[![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=fff)](https://pypi.org/project/PyRubik/) ![Progress](https://img.shields.io/badge/Progress-beta%20version-121212)
+
 ## How to install
+Well, this is easy. You must open your Python project and run this:
+
 ```sh
 pip install pyrubik
 ```
