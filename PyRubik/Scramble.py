@@ -6,7 +6,7 @@
 #                                               #
 ##-*-----------------------------------------*-##
 
-from random import randint, choice
+from random import random, randint, choice
 
 __all__: list = [
     'Cube2x2x2',
@@ -21,6 +21,8 @@ __all__: list = [
     'Megaminx',
     'Clock',
 ]
+
+RNG = random.seed(randint(-5_000_000, 5_000_000)) # TODO: Apply a seed system for scramble
 
 
 def sameAxis(MoveA: str, MoveB: str, MoveC: str) -> bool:
